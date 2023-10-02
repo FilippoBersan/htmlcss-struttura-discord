@@ -1,58 +1,103 @@
 /*
 RESET
 *****************
+*/
 
-
-
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 /*
 DEBUG
 *****************
+*/
 
+.containernav {
+  background-color: #add8e6;
+}
 
+.navlogo,
+.navlink,
+.navlogin {
+  background-color: #daa520;
+  width: 200px;
+  height: 40px;
+}
 
+.containervideo {
+  background-color: #00008b;
+}
 
-
-
-
-
-
+.video {
+  background-color: #ee82ee;
+}
 /*
 COMMON
 *****************
-
-
-
-
+*/
 
 /*
 HEADER
 *****************
+*/
 
+.containernav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  line-height: 35px;
+}
 
+.navlogo {
+  display: flex;
+  border-style: dashed;
+}
 
+.navlink {
+  display: flex;
+  border-style: dashed;
+  flex-grow: 0.5;
+}
 
+.navlink,
+p {
+  display: flex;
+  justify-content: center;
+}
+
+.navlogin {
+  display: flex;
+  border-style: dashed;
+  flex-direction: row-reverse;
+}
+
+.containervideo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+  min-height: 500px;
+}
+
+.video {
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+  min-height: 400px;
+  min-width: 800px;
+  border-style: dashed;
+}
 
 /*
 MAIN
 *****************
-
-
+*/
 
 /*
 FOOTER
 *****************
 
-
-
-
-
-
-
-
-
-
-
-
-
+*/
