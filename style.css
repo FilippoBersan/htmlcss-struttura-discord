@@ -96,6 +96,56 @@ MAIN
 *****************
 */
 
+.containermain1 {
+  display: flex;
+  /* background-color: aqua; */
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.containermain2 {
+  display: flex;
+  background-color: #d3d3d3;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.quad1 {
+  display: flex;
+  background-color: #1e90ff;
+  height: 400px;
+  width: 600px;
+  border-style: dashed;
+}
+
+.quad2 {
+  display: flex;
+  background-color: #ffc0cb;
+  height: 400px;
+  width: 400px;
+  border-style: dashed;
+}
+
+.containermainfinale {
+  display: flex;
+  background-color: #d3d3d3;
+  min-height: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.quad3 {
+  display: flex;
+  background-color: #228b22;
+  height: 600px;
+  width: 900px;
+  border-style: dashed;
+}
+
 /*
 FOOTER
 *****************
