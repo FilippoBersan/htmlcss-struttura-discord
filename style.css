@@ -151,3 +151,66 @@ FOOTER
 *****************
 
 */
+
+.containerfooter {
+  display: flex;
+  background-color: #23272a;
+  min-height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quad4 {
+  display: flex;
+  background-color: #f08080;
+  height: 600px;
+  width: 500px;
+  border-style: dashed;
+}
+
+.quad5 {
+  display: flex;
+  background-color: #20b2aa;
+  height: 600px;
+  width: 150px;
+  border-style: dashed;
+  border-color: aliceblue;
+}
+
+.footerfinale {
+  display: flex;
+  background-color: #23272a;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-top: solid white 3px;
+  align-items: flex-end;
+}
+
+.containerbottonifinali {
+  display: flex;
+  background-color: #7fffd4;
+  min-width: 800px;
+  min-height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logofinale {
+  display: flex;
+  background-color: #ffb6c1;
+  min-width: 100px;
+  border-style: dashed;
+  border-color: black;
+  line-height: 30px;
+}
+
+.bottonefinale {
+  display: flex;
+  background-color: #ffb6c1;
+  min-width: 100px;
+  border-style: dashed;
+  border-color: black;
+  line-height: 30px;
+  justify-items: end;
+}
